@@ -40,7 +40,7 @@ Before you can use this script, you'll need the following:
 Run the script to retrieve data from your BMW and send it to your Loxone Miniserver:
 
 ```shell
-python3 bmw_to_loxone_bridge.py
+python3 bmw2lox.py
 ```
 
 The script will print the collected data to the console and send it to the specified Loxone Miniserver. The script only polls the BMW server once and quits again. To execute it every few minutes you can use cron. Keep in mind that the BMW server has a low max polling rate! The following example is for a Raspberry Pi to run the script every 30min:
