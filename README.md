@@ -24,13 +24,13 @@ Before you can use this script, you'll need the following:
 
    ```python
    # BMW login data
-   username = 'your@email.com'
-   password = 'your_super_secure_password'
-   vin = 'VIN_OF_YOUR_CAR'
+   USERNAME = 'some@email.com'
+   PASSWORD = 'YourSuperSecurePassword'
+   VIN = 'VinOfYourCar'
    
    # Loxone Miniserver IP and UDP target port
-   miniserver_ip = "192.168.1.30"
-   miniserver_port = 1234
+   MINISERVER_IP = "192.168.1.30"
+   MINISERVER_PORT = 1234
    ```
 
    Replace `'your@email.com'`, `'your_super_secure_password'`, and `'VIN_OF_YOUR_CAR'` with your BMW ConnectedDrive account credentials and your BMW's VIN (Vehicle Identification Number). Adjust the `miniserver_ip` and `miniserver_port` to match your Loxone Miniserver configuration.
