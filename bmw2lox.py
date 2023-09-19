@@ -1,8 +1,8 @@
 """A python script to send state information of your BMW car to a Loxone Miniserver."""
 import asyncio
 import socket
-from bimmer_connected.account import MyBMWAccount
-from bimmer_connected.api.regions import Regions
+from bimmer_connected.account import MyBMWAccount # pylint: disable=import-error
+from bimmer_connected.api.regions import Regions  # pylint: disable=import-error
 
 
 # *****************************************************************************
