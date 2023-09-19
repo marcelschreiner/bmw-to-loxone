@@ -1,4 +1,10 @@
+
+
 # BMW to Loxone Bridge
+
+![Pylint](https://github.com/marcelschreiner/bmw-to-loxone/actions/workflows/pylint.yml/badge.svg)
+[![HitCount](https://hits.dwyl.com/marcelschreiner/bmw-to-loxone.svg?style=flat)](http://hits.dwyl.com/marcelschreiner/bmw-to-loxone)
+
 
 This Python script establishes a bridge between your BMW vehicle and a Loxone Miniserver, allowing you to monitor various aspects of your BMW remotely and send relevant data to the Loxone system. The script retrieves information from your BMW, such as door lock status, charging status, and location, and then sends this data to your Loxone Miniserver over UDP.
 
