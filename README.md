@@ -4,7 +4,14 @@
 
 ![Pylint](https://github.com/marcelschreiner/bmw-to-loxone/actions/workflows/pylint.yml/badge.svg)
 [![HitCount](https://hits.dwyl.com/marcelschreiner/bmw-to-loxone.svg?style=flat)](http://hits.dwyl.com/marcelschreiner/bmw-to-loxone)
-
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_bmw-to-loxone&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_bmw-to-loxone&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_bmw-to-loxone&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_bmw-to-loxone&metric=bugs)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_bmw-to-loxone&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_bmw-to-loxone&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_bmw-to-loxone&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=marcelschreiner_bmw-to-loxone&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
 
 This Python script establishes a bridge between your BMW vehicle and a Loxone Miniserver, allowing you to monitor various aspects of your BMW remotely and send relevant data to the Loxone system. The script retrieves information from your BMW, such as door lock status, charging status, and location, and then sends this data to your Loxone Miniserver over UDP.
 
@@ -74,3 +81,7 @@ Please note that some data fields are commented out in the script. You can uncom
 ## License
 
 This script is provided under the [MIT License](LICENSE.md). Feel free to modify and use it according to your needs.
+
+<br />
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=marcelschreiner_bmw-to-loxone)
